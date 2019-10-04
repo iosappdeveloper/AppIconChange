@@ -6,6 +6,40 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>CocaCola</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>CocaCola</string>
+				</array>
+			</dict>
+			<key>HSBC</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>HSBC</string>
+				</array>
+			</dict>
+			<key>SuccessFactors</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>SuccessFactors</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>SuccessFactors</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -22,8 +56,6 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
